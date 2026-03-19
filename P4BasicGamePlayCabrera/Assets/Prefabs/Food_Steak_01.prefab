@@ -12,12 +12,12 @@ GameObject:
   - component: {fileID: 8856167731403591344}
   - component: {fileID: 1497874357979713862}
   - component: {fileID: 2326076991543253765}
-  - component: {fileID: 7551987316646718685}
   - component: {fileID: 231708877228355011}
-  - component: {fileID: 951073936053738190}
+  - component: {fileID: 4317521358206681430}
+  - component: {fileID: 2082121033359148087}
   m_Layer: 0
   m_Name: Food_Steak_01
-  m_TagString: Untagged
+  m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -102,19 +102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3182203ed29fd94409e9136c8bece239, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
---- !u!114 &7551987316646718685
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8089126025518787231}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43f2e2e6c5a363344922ed6f2bc7396a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  speed: 20
 --- !u!65 &231708877228355011
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -134,9 +122,21 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.46739918, y: 0.08559368, z: 0.6615112}
-  m_Center: {x: 0, y: 0.04279684, z: 0}
---- !u!54 &951073936053738190
+  m_Size: {x: 0.53269124, y: 0.52652436, z: 0.6615112}
+  m_Center: {x: -0.03264606, y: 0.12932923, z: 0}
+--- !u!114 &4317521358206681430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8089126025518787231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43f2e2e6c5a363344922ed6f2bc7396a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!54 &2082121033359148087
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
