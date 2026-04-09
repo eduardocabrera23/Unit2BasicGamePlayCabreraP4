@@ -32,7 +32,7 @@ public class SpawnManagerX : MonoBehaviour
         Instantiate(ballPrefabs[ballIndex], spawnPos, ballPrefabs[ballIndex].transform.rotation);
 
         //randomize spawnInterval
-        spawnInterval = Random.Range(0.5f, 3.0f);
+        spawnInterval = Random.Range(0.5f, 5.0f);
 
         // Invoke again
         Invoke("SpawnRandomBall",  spawnInterval);
